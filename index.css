@@ -1,0 +1,91 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+    box-sizing: border-box;
+}
+
+.navcontent{
+    background-color: rgb(216, 30, 117);
+    display: flex;
+    justify-content: space-around;
+}
+
+.navtext h1{
+    font-size: 35px;
+    color: aliceblue;
+}
+
+
+
+
+
+.subjectcontainer{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.subject{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background-color: aqua;
+   
+}
+
+.subject input{
+    margin-left: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px 45px ;
+}
+   
+.subject button{
+    margin-left: 15px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+    
+.style{
+    padding: 0px;
+    width: 50%;
+    margin: 15px auto;
+    border: 1px groove black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.style h2{
+    display: inline-block;
+    margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.style button{
+   
+
+    background-color: red;
+    color: white;
+    padding: 8px 15px;
+    align-self: center;
+    margin-right: 30px;
+}
+
+@media only  screen and (max-width:500px){
+    .subject{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subject input{
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .subject button{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
