@@ -9,7 +9,7 @@ console.log(adddiv);
 
 console.log('arjun')
 console.log('kk')
-
+console.log('k')
 btns.addEventListener('click',division);
 
 function division(){
