@@ -7,7 +7,7 @@ console.log(inputvalue);
 let adddiv = document.getElementById('kk');
 console.log(adddiv);
 
-
+console.log('arjun')
  
 btns.addEventListener('click',division);
 
