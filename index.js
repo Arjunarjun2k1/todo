@@ -8,7 +8,8 @@ let adddiv = document.getElementById('kk');
 console.log(adddiv);
 
 console.log('arjun')
- 
+console.log('kk')
+
 btns.addEventListener('click',division);
 
 function division(){
